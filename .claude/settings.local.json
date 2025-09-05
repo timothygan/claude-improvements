@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(npm install)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm test)",
+      "Read(//Users/timgan/**)",
+      "Bash(find:*)",
+      "Bash(node:*)",
+      "mcp__context-pruner__analyze_conversation",
+      "Bash(npx claude:*)",
+      "mcp__context-pruner__configure_pruning",
+      "Bash(npx tsc:*)",
+      "Bash(pkill:*)",
+      "mcp__context-pruner__summarize_session",
+      "mcp__context-pruner__prune_context",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "mcp__fetch__imageFetch",
+      "mcp__context-pruner__test_simple",
+      "Bash(git reset:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

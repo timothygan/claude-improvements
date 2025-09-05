@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "context-pruning": {
+      "command": "node",
+      "args": ["/path/to/context-pruning-mcp/dist/index.js"],
+      "description": "Intelligent context pruning for conversation optimization",
+      "settings": {
+        "strategy": "balanced",
+        "autoTriggerThreshold": 100000,
+        "enableRollback": true,
+        "logLevel": "basic"
+      }
+    }
+  },
+  "contextPruning": {
+    "autoOptimize": true,
+    "triggerCommands": ["/prune", "/optimize", "/summarize"],
+    "preserveTypes": ["error", "code_change", "file_operation"],
+    "strategies": {
+      "development": "conservative",
+      "debugging": "balanced", 
+      "exploration": "aggressive"
+    }
+  }
+}
